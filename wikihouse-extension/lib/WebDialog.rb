@@ -142,8 +142,6 @@ module WikihouseExtension
   # --------------
   def wikihouse_error_callback(dialog, download_id)
     
-    puts "The WIKIHOUSE DOWNLOADS object: #{WIKIHOUSE_DOWNLOADS}"
-    
     if not WIKIHOUSE_DOWNLOADS.key? download_id
       return
     end
@@ -173,14 +171,14 @@ module WikihouseExtension
 
     dialog.add_action_callback("save") { |dialog, download_id|
       
-      puts "Called Save Callback with download ID: #{download_id}"
+      puts "Running Save Callback with download_id: #{download_id}"
       
       wikihouse_save_callback(dialog, download_id)
     }
 
     dialog.add_action_callback("error") { |dialog, download_id|
       
-      puts "Called Error Callback with download ID: #{download_id}"
+      puts "Running Error Callback with download_id = #{download_id}"
       
       wikihouse_error_callback(dialog, download_id)
     }
