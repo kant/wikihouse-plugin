@@ -1,7 +1,6 @@
 ## Wikihouse Extension
 
-This is the WikiHouse extension for use Google SketchUp designed for the [Wikihouse](http://www.wikihouse.cc/) open source construction set. Using it,  
-you can:
+This is the WikiHouse extension for use Google SketchUp designed for the [Wikihouse](http://www.wikihouse.cc/) open source construction set. Using it,  you can:
 
 * Import designs from the WikiHouse library.
 
@@ -38,7 +37,6 @@ Installation on previous versions of SketchUp (version 7 and bellow) has to be d
 
 ##License
 
-All of the code has been released into the [Public Domain]. Do with it  
-as you please.
+All of the code has been released into the [Public Domain]. Do with it as you please.
 
 [Public Domain]: https://github.com/tav/wikihouse-plugin/raw/master/UNLICENSE
