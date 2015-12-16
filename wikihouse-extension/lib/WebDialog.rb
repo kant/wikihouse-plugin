@@ -23,7 +23,7 @@ module WikihouseExtension
 
     # Try and save the model/component directly into the current model.
     if model and is_comp == '1'
-      reply = UI.messagebox "Load this directly into your Google SketchUp model?", MB_YESNOCANCEL
+      reply = UI.messagebox "Load this directly into your SketchUp model?", MB_YESNOCANCEL
       if reply == REPLY_YES
         loader = WikiHouseLoader.new name
         blob_url = WIKIHOUSE_SERVER + blob_url
